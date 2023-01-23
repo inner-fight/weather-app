@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link href="scr/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+<div class="border">
+<form>
+    <input id="search-city-name" type="text" placefolder="Enter your city" />
+    <input class="button" id="search-city" type="submit" value="Search" />
+</form>
+<div class="container">
+    <div class="row">
+<h1 class="col">Dublin</h1>
+    </div>
+</div>
+<div class="temp" id="current-temp">-5 - +11</div>
+<div class="cloud">🌦️</div>
+<div class="time" id="current-time-day">Friday 13:30</div>
+<div class="date" id="current-date">18/11/22</div>
+<div class="container">
+    <div class="row align-items-start">
+      <div class="col-2">
+        <div class="number">19/11</div>
+       <div class="emoji">⛈️</div>
+       <div class="size">+2 - +7</div>
+      </div>
+      <div class="col-2">
+        <div class="number">20/11</div>
+       <div class="emoji">⛅</div>
+       <div class="size">-1 - +9</div>
+      </div>
+      <div class="col-2">
+        <div class="number">21/11</div>
+       <div class="emoji">🌧️</div>
+       <div class="size">+3 - +10</div>
+      </div>  
+      <div class="col-2">
+        <div class="number">22/11</div>
+        <div class="emoji">⛅</div>
+        <div class="size">0 - +8</div>
+      </div>
+      <div class="col-2">
+        <div class="number">23/11</div>
+        <div class="emoji">🌨️</div>
+        <div class="size">-3 - +5</div>
+      </div>
+    </div>
+</div>
+<script src="scr/js.js">
+</script>
+  </body>
+  </html>
